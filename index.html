@@ -504,8 +504,11 @@
                     jsonObject[key] = value;
                  });
         
-              fetch('https://bcpw5ru8bb.execute-api.us-east-1.amazonaws.com/v1/contact', {
-              //('https://18uj3cpxzg.execute-api.us-east-1.amazonaws.com/dev/contact', {
+              fetch( 'https://18uj3cpxzg.execute-api.us-east-1.amazonaws.com/dev/contact', {
+                //'https://bcpw5ru8bb.execute-api.us-east-1.amazonaws.com/v1/contact', {
+               
+            
+            
                 method: 'POST',
                 headers: {
                       'Content-Type': 'application/json', // Specify JSON content type
@@ -522,9 +525,11 @@
                 alert('Something went wrong. Please try again.');
                 console.error(error);
                 // Handle errors
+                //,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token
               });
             });
           </script>
+          
 
         </div>
 
