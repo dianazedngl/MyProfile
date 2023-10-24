@@ -1,6 +1,6 @@
 # MyProfile
-# Day 1: \n
-create front end  \n
+# Day 1: 
+create front end  
 # Day 2:
 configure API Gateway
 # Day 3:
