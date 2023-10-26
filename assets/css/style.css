@@ -747,6 +747,34 @@ section {
   line-height: 24px;
   font-size: 14px;
 }
+.lambda-icon {
+  width: 100px;
+  height: 80px;
+  display: inline-block;
+  position: relative;
+}
+
+.lambda-shape {
+  width: 70px;
+  height: 40px;
+  background-color: #FF9900; /* Lambda orange color */
+  border-radius: 10px 10px 0 0;
+  position: absolute;
+  top: 0;
+  left: 15px;
+}
+
+.lambda-arrow {
+  width: 15px;
+  height: 15px;
+  background-color: #FF9900; /* Lambda orange color */
+  position: absolute;
+  top: 45px;
+  left: 15px;
+  transform: rotate(45deg);
+}
+
+
 
 /*--------------------------------------------------------------
 # Testimonials
