@@ -1,10 +1,11 @@
 # MyProfile
 # Day 1: 
-create front end  
+create front end 
 # Day 2:
-configure API Gateway
+create backend using lambda and SNS
 # Day 3:
-created Back End
+configure API Gateway
 # Day 4:
  created domain name and certificate 
-Day 5:
+# Day 5:
+upload front-end on S3 and configure cloudfront 
